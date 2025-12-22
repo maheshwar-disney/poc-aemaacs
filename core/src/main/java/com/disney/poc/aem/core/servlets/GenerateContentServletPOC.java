@@ -29,7 +29,7 @@ public class GenerateContentServletPOC extends SlingAllMethodsServlet {
     private static final Logger LOG = LoggerFactory.getLogger(GenerateContentServletPOC.class);
 
     // ⚠️ POC ONLY – move to OSGi config later
-    private static final String HUGGINGFACE_API_TOKEN = "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";
+    private static final String HUGGINGFACE_API_TOKEN = "REMOTE API TOKEN";
     private static final String HUGGINGFACE_MODEL_URL =
             "https://api-inference.huggingface.co/models/tiiuae/falcon-7b-instruct";
 

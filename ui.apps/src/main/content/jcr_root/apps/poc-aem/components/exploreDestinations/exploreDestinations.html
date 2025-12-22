@@ -1,0 +1,19 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"/>
+<sly data-sly-call="${clientlib.css @ categories='poc-aem.exploreDestinations'}"/>
+<sly data-sly-use.ctaBanner="com.disney.poc.aem.core.models.ExploreDestinationsModel">
+    <section class="vacay-container">
+        <div class="vacay-content">
+            <h2 class="vacay-title">${ctaBanner.getHeading}</h2>
+
+            <p class="vacay-description">
+            ${ctaBanner.componentDescription}
+            </p>
+
+            <a href="${ctaBanner.ctaLink}.html" class="vacay-cta" aria-label="Explore all destinations">
+            ${ctaBanner.buttonText}
+            </a>
+        </div>
+    </section>
+</sly>
+
+

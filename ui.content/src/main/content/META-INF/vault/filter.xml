@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/poc-aem" mode="merge"/>
+    <filter root="/content/poc-aem" mode="merge"/>
+    <filter root="/content/dam/poc-aem/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/poc-aem" mode="merge"/>
+</workspaceFilter>
